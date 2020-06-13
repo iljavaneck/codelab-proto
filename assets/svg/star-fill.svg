@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33 31.53">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #dd495e;
+        stroke: #dd495e;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="right_board" data-name="right board">
+      <path id="star-fill" class="cls-1" d="M16.5,1.5l4.64,9.39L31.5,12.4,24,19.7,25.77,30,16.5,25.16,7.23,30,9,19.71,1.5,12.4l10.36-1.51Z"/>
+    </g>
+  </g>
+</svg>

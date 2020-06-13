@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33 33">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #dd495e;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="right_board" data-name="right board">
+      <g id="clock">
+        <path id="Path_666" data-name="Path 666" class="cls-1" d="M31.5,16.5a15,15,0,1,1-15-15A15,15,0,0,1,31.5,16.5Z"/>
+        <path id="Path_667" data-name="Path 667" class="cls-1" d="M15.79,6.74V17.45L22.93,21"/>
+      </g>
+    </g>
+  </g>
+</svg>
