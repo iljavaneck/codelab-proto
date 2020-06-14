@@ -53,9 +53,9 @@
 
 
         <div id="workshopSpace">
-            <div id="spaceIllustration" class="left" data-paroller-factor="-0.1"
+            <div id="spaceIllustration" class="paralax" data-paroller-factor="0.15"
                                         data-paroller-type="foreground"
-                                        data-paroller-direction="horizontal">
+                                        data-paroller-direction="vertical">
                 <img src="assets/svg/rocket.svg" alt="illustration of a rocket"> 
             </div><div id="spaceText" class="workshopText">
                 <p>workshop 1</p>
@@ -72,9 +72,9 @@
         </div>
 
         <div id="workshopGame">
-                <div id="gameIllustration" class="right" data-paroller-factor="0.1"
+                <div id="gameIllustration" class="paralax" data-paroller-factor="0.15"
                                             data-paroller-type="foreground"
-                                            data-paroller-direction="horizontal">
+                                            data-paroller-direction="vertical">
                     <img src="assets/svg/controller.svg" alt="illustration of a game controller"> 
                 </div><div id="gameText" class="workshopText">
                     <p>workshop 2</p>
@@ -92,9 +92,9 @@
 
 
         <div id="workshopApp">
-                <div id="appIllustration" class="left"  data-paroller-factor="-0.1"
+                <div id="appIllustration" class="paralax"  data-paroller-factor="0.15"
                                             data-paroller-type="foreground"
-                                            data-paroller-direction="horizontal">
+                                            data-paroller-direction="vertical">
                     <img src="assets/svg/crane.svg" alt="illustration of a crane lifting a phone"> 
                 </div><div id="appText" class="workshopText">
                     <p>workshop 3</p>
@@ -127,7 +127,7 @@
             </div>
             <div id="uspCardsContainer">
                 <div class="uspCard" id="uspCardLeft">
-                    <img class="left" data-paroller-factor="-0.1" data-paroller-type="foreground" data-paroller-direction="horizontal" src="assets/svg/handshake.svg" alt="illustration of a handshake">
+                    <img class="left" src="assets/svg/handshake.svg" alt="illustration of a handshake">
                     <h4>Persoonlijk</h4>
                     <p>Naast dat wij persoonlijke begeleiding bieden voor leraren, hebben onze workshops ook de mogelijkheid om volledig aangepast te worden aan de interesses van de klas!</p>
                 </div>
@@ -137,11 +137,12 @@
                     <p>Het team van Code Lab bedenkt en ontwikkelt elke workshop heel zorgvuldig. Hierdoor kunnen wij workshops aanbieden van hoge kwaliteit.</p>
                 </div>
                 <div class="uspCard" id="uspCardRight">
-                    <img class="right" data-paroller-factor="0.1" data-paroller-type="foreground" data-paroller-direction="horizontal" src="assets/svg/hat.svg" alt="illustration of a graduation hat">
+                    <img class="right" src="assets/svg/hat.svg" alt="illustration of a graduation hat">
                     <h4>Leuk en makkelijk</h4>
                     <p>Onze workshops zijn super leuk voor leerlingen, en makkelijk voor de leraren!  Er is geen technische kennis vereist, onze lespakketten zijn compleet met werkbladen en instructievideo’s. </p>
                 </div>
             </div>
+            <a>Bekijk deze workshop</a>
         </div>
 
         <div id="whitespace"></div>
@@ -182,7 +183,7 @@
                 $(".logo").attr("src", initialSrc);
             }
             });
-            $('.left , .right').paroller(); 
+            $('.paralax').paroller(); 
 
 
 
