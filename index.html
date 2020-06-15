@@ -163,7 +163,7 @@
                         <h4>Ilja</h4>
                         <p>Hier komt een korte tekst waarin we onszelf even voorstellen en iets leuks vertellen!</p>
                     </div>
-                    <div class="teamCard">
+                    <div class="teamCard" id="teamCardMiddle">
                         <img src="assets/svg/placeholder.svg" alt="illustration of a golden medal">
                         <h4>Max</h4>
                         <p>Hier komt een korte tekst waarin we onszelf even voorstellen en iets leuks vertellen!</p>
@@ -261,7 +261,7 @@
         $( document ).ready(function() {    
             $(window).on("scroll", function() {
             var scrollPos = $(window).scrollTop();
-            if (scrollPos > 80) {
+            if (scrollPos > 70) {
                 $('.navigation').addClass('bgVisible');
                 $('.navigation ul li a').addClass('visible')
                 $(".logo").attr("src", scrollSrc);

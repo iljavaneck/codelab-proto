@@ -15,7 +15,7 @@
 
     <nav class="navigation">
             <div id="navigationContent">
-                <a href="#"><img class="logo" src="assets/svg/logo-black.svg" alt="logo"> </a>
+                <a href="index.html"><img class="logo" src="assets/svg/logo-black.svg" alt="logo"> </a>
                 <ul>
                     <li><a href="#">Waarom?</a></li>
                     <li><a href="#">Workshops</a></li>
@@ -35,17 +35,91 @@
                 <a href="#">scroll naar beneden!</a>
             </div>
             <div id="headerImageWorkshop">
-                <img src="assets/svg/desktop-header.svg" alt="illustration of rocket">
+                <img src="assets/svg/desktop-header-ws.svg" alt="illustration of rocket">
             </div>
             <div class="clear"></div>
     </header>
 
+    <main>
+
+        <article id="info">
+            <div id="infoText">
+                <h3>Op avontuur in de ruimte!</h3>
+                <p id="infoDescription">In deze workshop neemt het lesmateriaal je mee op avontuur.
+                        Op speelse en actieve wijze ga je stap voor stap door de basis.
+                        Daarna gaan ze door middel van een fysiek spel aan de slag om allemaal een eigen ruimte figuur te coderen!</p>
+                <p id="infoBold">Voor al onze workshops hoeft de leraar geen voorkennis te hebben!</p>
+            </div>
+            <div id="infoLists">
+                <div id="benodigdheden">
+                    <ul  aria-label="Benodigdheden:">
+                        <li>Lespakket</li>
+                        <li>Elk kind een laptop<br>met internetverbinding</li>
+                    </ul>
+                </div>
+                <div id="duur">
+                    <ul aria-label="Duur:">
+                        <li>2 tot 3 uur</li>
+                    </ul>
+                </div>
+                <div id="leerdoelen">
+                    <ul aria-label="leerdoelen:">
+                        <li>Probleemoplossend denken</li>
+                        <li>De basis van p5 leren</li>
+                        <li>Kennis maken met coderen</li>
+                    </ul>
+                </div>
+                <div class="clear"></div>
+                
+            </div>
+
+        </article>
+
+
+
+
+
+            <div id="wit"></div>
+    </main>
+
+    
 
 
 
 
 
 
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/paroller.js/dist/jquery.paroller.min.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <script>
+            
+            
+            var initialSrc = "assets/svg/logo-black.svg";
+            var scrollSrc = "assets/svg/logo-color.svg";
+
+        $( document ).ready(function() {    
+            $(window).on("scroll", function() {
+            var scrollPos = $(window).scrollTop();
+            if (scrollPos > 70) {
+                $('.navigation').addClass('bgVisible');
+                $('.navigation ul li a').addClass('visible')
+                $(".logo").attr("src", scrollSrc);
+            } else {
+                $('.navigation').removeClass('bgVisible');
+                $('.navigation ul li a').removeClass('visible')
+                $(".logo").attr("src", initialSrc);
+            }
+            });
+           // $('.paralax').paroller(); 
+
+
+
+        });
+
+        </script>
 
 
 
@@ -54,3 +128,4 @@
 
 
 </body>
+</html>
