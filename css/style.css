@@ -108,7 +108,7 @@ body{
 #headerImageHome{
     position: absolute;
     width: 895px;
-    margin-left: 38vw;
+    margin-left: 44vw;
 }
 
 #tagline{
@@ -374,7 +374,14 @@ body{
 
 .teamCard img{
     width: 280px;
+}
 
+.teamCard{
+    width: 300px;
+}
+
+#teamCardMiddle{
+    margin: 0px 10vw 0px 10vw;
 }
 
 #teamCardsContainer{
@@ -566,3 +573,129 @@ img#facebook{
 }  
 
 
+
+
+/*workshop pagina*/
+
+#headerTextWorkshop{
+    position: relative;
+    float: left;
+    margin-left: 8vw;
+    margin-top: 35vh;
+    z-index: 2;
+}
+
+#headerTextWorkshop h1{
+    font-weight: bold;
+    font-size: 3em;
+}
+
+#headerTextWorkshop p{
+    margin-top: 40px;
+    width: 566px;
+    font-size: 1.1em;
+    line-height: 24px;
+}
+
+#headerTextWorkshop a{
+    font-weight: bold;
+    position: absolute;
+    text-decoration: none;
+    background-color: #F0385A;
+    border: 4px solid #F0385A;
+    color: #fff;
+    border-radius: 30px;
+    padding: 18px 36px 18px 36px;
+    margin-top: 40px;
+}
+
+#headerTextWorkshop a:hover{
+    color: #F0385A;
+    background-color: #fff;
+    border: 4px solid #F0385A;
+}
+
+#headerImageWorkshop{
+    position: absolute;
+    width: 900px;
+    margin-left: 45vw;
+}
+
+#info{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 60vh;
+}
+
+#info h3{
+    font-weight: 600;
+    font-size: 2em;
+    margin-bottom: 25px;
+}
+
+#infoDescription{
+    width: 700px;
+    margin: 0 auto;
+    line-height: 1.4em;
+    margin-bottom: 50px;
+}
+
+#infoBold{
+    font-weight: 600;
+}
+
+#infoLists{
+    position: relative;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+#infoLists ul:before{
+    content:attr(aria-label);
+    font-weight: bold;
+    color: #F0385A;
+    font-size: 1.2em;
+}
+
+#infoLists ul li:first-child{
+    margin-top: 25px;
+}
+
+#infoLists ul li{
+    margin-top: 15px;
+    list-style: none;
+}
+
+#infoLists ul li::before{
+    content: "\2022";
+    color: #F0385A;
+    font-weight: 900;
+    display: inline-block;
+    width: 1em;
+}
+
+#benodigdheden{
+    float: left;
+    margin-left: 20vw;
+}
+
+#duur{
+    float: left;
+    margin-left: 13vw;
+}
+
+#leerdoelen{
+    float: left;
+    margin-left: 13vw;
+}
+
+
+
+#wit{
+    width: 100%;
+    height: 400px;
+    margin-top: 80vh;
+    position: relative;
+    background-color: #fff;
+}

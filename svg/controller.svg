@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 594.01 520.55">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: #001024;
+      }
+
+      .cls-4 {
+        fill: #a6a6a6;
+      }
+
+      .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-6 {
+        fill: #323232;
+      }
+
+      .cls-7 {
+        fill: #e6ab39;
+      }
+
+      .cls-8 {
+        fill: #edcc46;
+      }
+
+      .cls-9 {
+        fill: #f5e38c;
+      }
+
+      .cls-10 {
+        fill: #356a38;
+      }
+
+      .cls-11 {
+        fill: #56a65b;
+      }
+
+      .cls-12 {
+        fill: #91e69a;
+      }
+
+      .cls-13 {
+        fill: #84221f;
+      }
+
+      .cls-14 {
+        fill: #d32a23;
+      }
+
+      .cls-15 {
+        fill: #df8f8e;
+      }
+
+      .cls-16 {
+        fill: #233578;
+      }
+
+      .cls-17 {
+        fill: #254ad7;
+      }
+
+      .cls-18 {
+        fill: #a3b1ea;
+      }
+
+      .cls-19 {
+        fill: #2c2c2c;
+      }
+
+      .cls-20 {
+        fill: #3c3c36;
+      }
+
+      .cls-21 {
+        fill: #da3a2c;
+      }
+
+      .cls-22 {
+        fill: #a01e16;
+      }
+
+      .cls-23 {
+        fill: #e69588;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <circle class="cls-1" cx="238" cy="282.55" r="238"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="right_board" data-name="right board">
+      <g id="controller">
+        <g class="cls-2">
+          <g id="Mask_Group_8" data-name="Mask Group 8">
+            <circle id="Ellipse_262" data-name="Ellipse 262" class="cls-3" cx="238" cy="282.55" r="238"/>
+            <g id="controller-2">
+              <g id="pad">
+                <path id="Path_613" data-name="Path 613" class="cls-4" d="M107.53,234H541a43.47,43.47,0,0,1,43.53,39.38l9.33,105.3c1.59,18-12.76,33.42-31,33.42H83.74c-19.86,0-35.42-16.84-33.59-36.35l9.19-98.37C61.64,252.76,82.52,234,107.53,234Z"/>
+                <path id="Path_614" data-name="Path 614" class="cls-5" d="M110,197.55H538.23a43.16,43.16,0,0,1,43,39.38l9.21,105.29a30.75,30.75,0,0,1-28,33.31c-.89.08-1.78.12-2.68.12H86.49a33.31,33.31,0,0,1-33.32-33.29c0-1,0-2.05.14-3.06l9.08-98.38A47.78,47.78,0,0,1,110,197.55Z"/>
+              </g>
+              <g id="button">
+                <ellipse id="Ellipse_267" data-name="Ellipse 267" class="cls-6" cx="352.88" cy="243.85" rx="36.74" ry="14.04"/>
+                <path id="Path_618" data-name="Path 618" class="cls-7" d="M381.48,229.17v7.68c-7.6,10.09-28.89,9.6-28.89,9.6s-21.29.49-28.89-9.6v-8.14s5.84,10.86,28.89,10.86S381.48,229.17,381.48,229.17Z"/>
+                <ellipse id="Ellipse_268" data-name="Ellipse 268" class="cls-8" cx="352.59" cy="228.71" rx="28.89" ry="11.06"/>
+                <path id="Path_619" data-name="Path 619" class="cls-9" d="M350.68,237.49c-.94.07-1.91.1-2.89.1-10.65,0-19.29-3.89-19.29-8.67s8.64-8.67,19.29-8.67c1,0,1.95,0,2.89.1-9.28.62-16.4,4.22-16.4,8.57S341.4,236.87,350.68,237.49Z"/>
+              </g>
+              <g id="button-2">
+                <ellipse id="Ellipse_269" data-name="Ellipse 269" class="cls-6" cx="423.06" cy="270.05" rx="36.74" ry="14.04"/>
+                <path id="Path_620" data-name="Path 620" class="cls-10" d="M451.66,255.37v7.68c-7.6,10.09-28.89,9.6-28.89,9.6s-21.29.49-28.89-9.6v-8.14s5.84,10.86,28.89,10.86S451.66,255.37,451.66,255.37Z"/>
+                <ellipse id="Ellipse_270" data-name="Ellipse 270" class="cls-11" cx="422.77" cy="254.91" rx="28.89" ry="11.06"/>
+                <path id="Path_621" data-name="Path 621" class="cls-12" d="M420.86,263.69c-.94.07-1.91.1-2.89.1-10.65,0-19.29-3.89-19.29-8.67s8.64-8.67,19.29-8.67c1,0,1.95,0,2.89.1-9.28.62-16.4,4.22-16.4,8.57S411.58,263.07,420.86,263.69Z"/>
+              </g>
+              <g id="button-3">
+                <ellipse id="Ellipse_271" data-name="Ellipse 271" class="cls-6" cx="381.29" cy="316.32" rx="36.68" ry="14.01"/>
+                <path id="Path_622" data-name="Path 622" class="cls-13" d="M409.84,301.67v7.67c-7.59,10.07-28.84,9.58-28.84,9.58s-21.25.49-28.83-9.58v-8.13S358,312.05,381,312.05,409.84,301.67,409.84,301.67Z"/>
+                <ellipse id="Ellipse_272" data-name="Ellipse 272" class="cls-14" cx="381" cy="301.21" rx="28.84" ry="11.04"/>
+                <path id="Path_623" data-name="Path 623" class="cls-15" d="M379.1,310c-.94.07-1.91.1-2.89.1-10.63,0-19.25-3.89-19.25-8.66s8.62-8.65,19.25-8.65c1,0,2,0,2.89.1-9.27.62-16.37,4.21-16.37,8.55S369.83,309.36,379.1,310Z"/>
+              </g>
+              <g id="button-4">
+                <ellipse id="Ellipse_273" data-name="Ellipse 273" class="cls-6" cx="313.87" cy="290.24" rx="36.68" ry="14.01"/>
+                <path id="Path_624" data-name="Path 624" class="cls-16" d="M342.42,275.59v7.66c-7.59,10.08-28.84,9.59-28.84,9.59s-21.25.49-28.84-9.59v-8.13S290.57,286,313.58,286,342.42,275.59,342.42,275.59Z"/>
+                <ellipse id="Ellipse_274" data-name="Ellipse 274" class="cls-17" cx="313.58" cy="275.12" rx="28.84" ry="11.04"/>
+                <path id="Path_625" data-name="Path 625" class="cls-18" d="M311.68,283.89c-.94.07-1.91.1-2.89.1-10.63,0-19.25-3.88-19.25-8.65s8.62-8.66,19.25-8.66c1,0,1.95,0,2.89.1-9.27.62-16.37,4.22-16.37,8.56S302.41,283.27,311.68,283.89Z"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="joystick">
+          <ellipse id="Ellipse_263" data-name="Ellipse 263" cx="157.83" cy="278.74" rx="88.23" ry="47.99"/>
+          <ellipse id="Ellipse_264" data-name="Ellipse 264" class="cls-19" cx="156.95" cy="269.12" rx="66.49" ry="38.38"/>
+          <path id="Path_615" data-name="Path 615" d="M110,148.42l28.8,107s19.84,10.51,34.72-8L151.27,137.93Z"/>
+          <path id="Path_616" data-name="Path 616" class="cls-20" d="M119.85,148.17,145,241.41l7.78-1.79-26-96.47Z"/>
+          <circle id="Ellipse_265" data-name="Ellipse 265" class="cls-21" cx="113.1" cy="74.25" r="74.23"/>
+          <path id="Path_617" data-name="Path 617" class="cls-22" d="M185.43,57.55A74.22,74.22,0,0,1,69.68,134.44a74.23,74.23,0,0,0,64-131.52A74.21,74.21,0,0,1,185.43,57.55Z"/>
+          <ellipse id="Ellipse_266" data-name="Ellipse 266" class="cls-23" cx="88.69" cy="59.87" rx="25.69" ry="19.73" transform="translate(-10.54 99.93) rotate(-56.01)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
