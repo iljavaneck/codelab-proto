@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="assets/png/shortcut@2x.png">
-    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link href="https://vjs.zencdn.net/7.8.2/video-js.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 
@@ -45,15 +45,15 @@
     <main>
 
 
-        <div id="tagline">
+        <article id="tagline">
             <h3>Vandaag beginnen aan morgen.</h3>
             <p>De workshops van Code Lab bieden een unieke kans om leerlingen inzichten te geven op het terrein van codetaal en programmeren – één van de 21st century skills.</p>
             <a>Lees meer over ons</a>
-        </div>
+        </article>
 
 
-        <div id="workshopSpace">
-            <div id="spaceIllustration" class="paralax" data-paroller-factor="0.15"
+        <article id="workshopSpace">
+            <div id="spaceIllustration" class="paralax" data-paroller-factor="0.1"
                                         data-paroller-type="foreground"
                                         data-paroller-direction="vertical">
                 <img src="assets/svg/rocket.svg" alt="illustration of a rocket"> 
@@ -61,18 +61,18 @@
                 <p>workshop 1</p>
                 <h2>Space Code</h2>
                 <ul>
-                    <li>2-3 uur</li>
-                    <li>beginners</li>
+                    <li><i id="iconSpace" class="far fa-clock"></i>2-3 uur</li>
+                    <li><i class="fas fa-star"></i><i class="far fa-star"></i><i id="iconSpace" class="far fa-star"></i>beginners</li>
                 </ul>
                 <p class="description">In deze workshop maken de leerlingen op actieve en speelse wijze kennis met de basis van coderen.
                 Aan het einde van de workshop is elke leerling in staat om zelfstandig een ruimte figuur te coderen!</p>
-                <a>Bekijk deze workshop</a>
+                <a href="workshop.html">Bekijk deze workshop</a>
             </div>
             <div class="clear"></div>
-        </div>
+        </article>
 
-        <div id="workshopGame">
-                <div id="gameIllustration" class="paralax" data-paroller-factor="0.15"
+        <article id="workshopGame">
+                <div id="gameIllustration" class="paralax" data-paroller-factor="0.1"
                                             data-paroller-type="foreground"
                                             data-paroller-direction="vertical">
                     <img src="assets/svg/controller.svg" alt="illustration of a game controller"> 
@@ -80,19 +80,19 @@
                     <p>workshop 2</p>
                     <h2>Maak een game!</h2>
                     <ul>
-                        <li>3 uur</li>
-                        <li>gemiddeld</li>
+                        <li><i id="iconSpace" class="far fa-clock"></i>3 uur</li>
+                        <li><i class="fas fa-star"></i><i class="fas fa-star"></i><i id="iconSpace" class="far fa-star"></i>gemiddeld</li>
                     </ul>
                     <p class="description">Hebben de leerlingen al ervaring met coderen? 
                         In deze workshop gaan ze aan de slag met meer geavanceerde functies zoals animaties om een game te ontwikkelen!</p>
                     <a>Bekijk deze workshop</a>
                 </div>
                 <div class="clear"></div>
-         </div>
+            </article>
 
 
-        <div id="workshopApp">
-                <div id="appIllustration" class="paralax"  data-paroller-factor="0.15"
+        <article id="workshopApp">
+                <div id="appIllustration" class="paralax"  data-paroller-factor="0.1"
                                             data-paroller-type="foreground"
                                             data-paroller-direction="vertical">
                     <img src="assets/svg/crane.svg" alt="illustration of a crane lifting a phone"> 
@@ -100,17 +100,17 @@
                     <p>workshop 3</p>
                     <h2>Bouw je eigen app!</h2>
                     <ul>
-                        <li>5-6 uur</li>
-                        <li>gevorderd</li>
+                        <li><i id="iconSpace" class="far fa-clock"></i>5-6 uur</li>
+                        <li><i class="fas fa-star"></i><i class="fas fa-star"></i><i id="iconSpace" class="fas fa-star"></i>gevorderd</li>
                     </ul>
                     <p class="description">Na deze workshop heeft iedereen een eigen app bedacht en ook ontwikkeld! Haal het maximale uit de creativiteit van de leerlingen en laat ze kennis maken met het ‘echte’ werk.</p>
                     <a>Bekijk deze workshop</a>
                 </div>
                 <div class="clear"></div>
-        </div>
+            </article>
 
-        <div class="about">
-                <img src="assets/svg/desktop-bg.svg" alt="bluebackground">
+        <article class="about">
+                <img src="assets/svg/desktop-bg.svg" alt="blue background">
             <div class="aboutText">
                 <h2>Code lab in de klas</h2>
                 <p id="pinkText">Waarom de skills van de 21e eeuw belangrijk zijn</p>
@@ -118,9 +118,9 @@
                 <p>Met Code Lab ontwikkelen leerlingen toekomstgerichte en digitale vaardigheden als computational thinking, informatievaardigheden, ict-basisvaardigheden en mediawijsheid. Ook leren ze samenwerken en communiceren.</p>
                 <p>Je kunt de interactieve missies van Code Lab uitstekend in de klas gebruiken. Ze zijn geschikt voor leerlingen vanaf groep 4. Oudere kinderen kunnen er zelfstandig of in kleine groepjes mee aan de slag. </p>
             </div>
-        </div>
+        </article>
 
-        <div id="usp">
+        <article id="usp">
             <div id="uspTitle">
                 <h3>Waarom kiezen voor Code Lab?</h3>
                 <p>Wat onderscheid onze workshops van alle anderen?</p>
@@ -142,10 +142,97 @@
                     <p>Onze workshops zijn super leuk voor leerlingen, en makkelijk voor de leraren!  Er is geen technische kennis vereist, onze lespakketten zijn compleet met werkbladen en instructievideo’s. </p>
                 </div>
             </div>
-            <a>Bekijk deze workshop</a>
-        </div>
+            <a class="cta">Bekijk deze workshop</a>
+        </article>
 
-        <div id="whitespace"></div>
+        <article id="promoVideo">
+            <h3>Promotievideo</h3>
+            <p>Wij gaan voor de volgende generatie creatieve denkers</p>
+            <video width="80%" height="" controls>
+                <source src="video/stock-placeholder.mp4" type="video/mp4">
+              De browser waarin je deze site bekijkt ondersteunt geen video.
+            </video>
+        </article>
+
+        <article id="team">
+            <h3>Ontmoet het team</h3>
+            <p>Wij zijn het creatieve brein achter Code Lab</p>
+            <div id="teamCardsContainer">
+                    <div class="teamCard">
+                        <img src="assets/svg/placeholder.svg" alt="illustration of a handshake">
+                        <h4>Ilja</h4>
+                        <p>Hier komt een korte tekst waarin we onszelf even voorstellen en iets leuks vertellen!</p>
+                    </div>
+                    <div class="teamCard">
+                        <img src="assets/svg/placeholder.svg" alt="illustration of a golden medal">
+                        <h4>Max</h4>
+                        <p>Hier komt een korte tekst waarin we onszelf even voorstellen en iets leuks vertellen!</p>
+                    </div>
+                    <div class="teamCard">
+                        <img src="assets/svg/placeholder.svg" alt="illustration of a graduation hat">
+                        <h4>Björn</h4>
+                        <p>Hier komt een korte tekst waarin we onszelf even voorstellen en iets leuks vertellen!</p>
+                    </div>
+            </div>
+            <a class="cta">Neem contact op met ons</a>
+        </article>
+
+        <article class="quote">
+            <img src="assets/svg/quote.svg" alt="quote signs">
+            <p id="quoteText">Ik aarzelde om te beginnen met robots en programmeren in de klas omdat ik niet zoveel weet over techniek. Maar het lespakket met de instructievideo’s maken het een fluitje van een cent!</p>
+            <p>Samira (juf van groep 7)</p>
+        </article>
+
+        <article>
+            <div id="bottomCta">
+                <h5>Benieuwd  geworden naar het lesmateriaal?</h5>
+                <a class="cta">Bekijk de workshops</a>
+            </div>
+        </article>
+
+        <article class="footer">
+            <img src="assets/svg/footer-bg.svg" alt="blue background">
+            <div id="footerContainer">
+                <div id="email">
+                    <h3>Schrijf je in voor onze <br>nieuwsbrief</h3>
+                    <p>En mis nooit meer een<br>nieuwe workshop!</p>
+                        <form class="contact-form" action="contactform.php" method="POST">
+                            <input  type="text" name="name" placeholder="Naam">
+                            <input  type="text" name="mail" placeholder="E-mail">
+                            <button type="submit" name="submit">Schrijf me in!</button>
+                        </form>
+                </div>
+                <div id="middleNav">
+                    <ul>
+                        <li>Waarom?</li>
+                        <li>Workshops</li>
+                        <li>Het team</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+                <div id="socials">
+                    <h4>Volg ons ook op<br>onze sociale media!</h4>
+                    <ul>
+                        <li><img src="assets/svg/insta.svg" alt="instagram icon"></li>
+                        <li><img id="facebook" src="assets/svg/facebook.svg" alt="facebook icon"></li>
+                        <li><img src="assets/svg/twitter.svg" alt="twitter icon"></li>
+                        <li><img src="assets/svg/pinterest.svg" alt="pinterest icon"></li>
+                    </ul>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </article>
+        
+        <nav class="bottomNavigation">
+            <div class="bottomNavigationContent">
+                <ul>
+                    <li><a href="downloads/privacy statement Code Lab.pdf" download="">Privacy verklaring</a></li>
+                    <li><a href="downloads/Algemene Voorwaarden Code Lab.pdf" download="">Algemene voorwaarden</a></li>
+                    <li>© 2020 Code Lab</li>
+                </ul>
+                <div class="clear"></div>
+            </div>
+        </nav>
 
 
 
@@ -164,6 +251,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/paroller.js/dist/jquery.paroller.min.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <script>
             
             
@@ -183,7 +271,7 @@
                 $(".logo").attr("src", initialSrc);
             }
             });
-            $('.paralax').paroller(); 
+           // $('.paralax').paroller(); 
 
 
 
